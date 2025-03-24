@@ -29,10 +29,12 @@ header {
 .social-btn {
     background-color: #fff; /* Witte achtergrond voor de knoppen */
     color: #901A16; /* Roodkleurige tekst */
-    padding: 10px 20px;
+    padding: 12px 25px; /* Grotere padding voor knoppen */
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
+    display: inline-block; /* Zorgt ervoor dat het zich als een knop gedraagt */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -59,4 +61,3 @@ footer p {
     margin: 0;
     color: #fff;
 }
-
