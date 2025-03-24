@@ -16,8 +16,11 @@ header {
 }
 
 #logo img {
-    width: 500px; /* Logo grootte aangepast naar 50px */
-    height: auto;
+    max-width: 150px; /* Maximum breedte van 150px */
+    max-height: 150px; /* Maximum hoogte van 150px */
+    width: auto; /* Zorgt ervoor dat de breedte automatisch wordt geschaald */
+    height: auto; /* Zorgt ervoor dat de hoogte automatisch wordt geschaald */
+
 }
 
 #discord-btn a {
