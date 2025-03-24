@@ -1,79 +1,60 @@
-/* Algemene instellingen */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Algemene stijlen */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #000; /* Zwarte achtergrond */
+    color: #fff; /* Witte tekst */
+    margin: 0;
+    padding: 0;
 }
 
-/* Header */
 header {
-    background-color: #0077cc;
-    color: white;
-    padding: 10px 0;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B80C0C; /* Donkerrode kleur voor de header */
+    padding: 10px 20px;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1200px;
+#logo img {
+    width: 50px; /* Pas dit aan afhankelijk van je logo */
+    height: auto;
+}
+
+#discord-btn a {
+    background-color: #fff; /* Witte knop */
+    color: #B80C0C; /* Donkerrode tekstkleur */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#discord-btn a:hover {
+    background-color: #B80C0C; /* Donkerrood wanneer je erover heen gaat */
+    color: #fff; /* Witte tekstkleur bij hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
-    font-size: 2.5em;
+    color: #B80C0C; /* Donkerrood voor de koptekst */
 }
 
-/* Discord knop rechtsboven */
-.discord-button {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: #7289da;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    transition: background-color 0.3s;
-}
-
-.discord-button:hover {
-    background-color: #5d6aa0;
-}
-
-/* Serverinformatie */
-.server-info {
-    background-color: white;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.server-info h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.server-info p {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-/* Footer */
 footer {
     background-color: #222;
-    color: white;
     text-align: center;
     padding: 10px 0;
-    margin-top: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
+footer p {
+    margin: 0;
+    color: #fff;
+}
+
