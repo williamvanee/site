@@ -16,8 +16,8 @@ header {
 }
 
 #logo img {
-    max-width: 150px; /* Maximum breedte van 150px */
-    max-height: 150px; /* Maximum hoogte van 150px */
+    max-width: 100px; /* Maximum breedte van 150px */
+    max-height: 100px; /* Maximum hoogte van 150px */
     width: auto; /* Zorgt ervoor dat de breedte automatisch wordt geschaald */
     height: auto; /* Zorgt ervoor dat de hoogte automatisch wordt geschaald */
 
