@@ -8,43 +8,42 @@ body {
 }
 
 header {
+    background-color: #901A16; /* Roodkleur voor de header */
+    padding: 20px;
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #901A16; /* Donkerrode kleur voor de header */
-    padding: 10px 20px;
 }
 
 #logo img {
-    max-width: 100px; /* Maximum breedte van 150px */
-    max-height: 100px; /* Maximum hoogte van 150px */
-    width: auto; /* Zorgt ervoor dat de breedte automatisch wordt geschaald */
-    height: auto; /* Zorgt ervoor dat de hoogte automatisch wordt geschaald */
-
+    width: 50px; /* Pas dit aan naar wens voor de grootte van je logo */
+    height: auto;
 }
 
-#discord-btn a {
-    background-color: #fff; /* Witte knop */
-    color: #B80C0C; /* Donkerrode tekstkleur */
+#social-buttons {
+    display: flex;
+    gap: 10px; /* Ruimte tussen de knoppen */
+}
+
+.social-btn {
+    background-color: #fff; /* Witte achtergrond voor de knoppen */
+    color: #901A16; /* Roodkleurige tekst */
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-#discord-btn a:hover {
-    background-color: #B80C0C; /* Donkerrood wanneer je erover heen gaat */
-    color: #fff; /* Witte tekstkleur bij hover */
+.social-btn:hover {
+    background-color: #901A16; /* Rood bij hover */
+    color: #fff; /* Witte tekst bij hover */
 }
 
 main {
     padding: 20px;
     text-align: center;
-}
-
-h1 {
-    color: #B80C0C; /* Donkerrood voor de koptekst */
 }
 
 footer {
@@ -60,5 +59,4 @@ footer p {
     margin: 0;
     color: #fff;
 }
-
 
