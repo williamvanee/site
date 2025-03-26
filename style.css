@@ -1,55 +1,84 @@
+/* Algemene stijlen */
 body {
     font-family: Arial, sans-serif;
-    background-color: #1a1a1a;
+    background-color: #121212;
     color: white;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* Header */
 header {
+    background-color: #901A16;
+    width: 100%;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #901A16;
-    padding: 15px;
 }
 
 #logo img {
-    height: 50px;
+    max-width: 100px;
+    height: auto;
 }
 
+/* Knoppen (Discord, TikTok, Twitch) */
 #buttons {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
-.btn {
-    background-color: #ff4444;
+#buttons .btn {
+    background-color: #ff4d4d;
     color: white;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;
-    text-align: center;
-    display: inline-block;
+    transition: background-color 0.3s;
 }
 
-.btn:hover {
-    background-color: #cc0000;
+#buttons .btn:hover {
+    background-color: #ff2d2d;
 }
 
+/* Serverinformatie en plaatje */
 #info {
     display: flex;
-    justify-content: space-between;
-    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
 }
 
-.text {
-    width: 50%;
+#info .image {
+    margin-right: 20px;
 }
 
-.image img {
-    width: 500px; /* Verklein het plaatje */
-    height: auto;
+#info img {
+    width: 400px;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Serverinformatie tekst */
+#server-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#server-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #901A16;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
