@@ -21,9 +21,10 @@ header {
 }
 
 #logo img {
-    max-width: 60px;
-    height: auto;
+    width: 50px; /* Pas de breedte aan naar wens */
+    height: auto; /* Houdt de proporties van het plaatje intact */
 }
+
 
 /* Knoppen (Discord, TikTok, Twitch) */
 #buttons {
