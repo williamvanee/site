@@ -1,63 +1,60 @@
-/* Algemene stijlen */
 body {
     font-family: Arial, sans-serif;
-    background-color: #000; /* Zwarte achtergrond */
-    color: #fff; /* Witte tekst */
-    margin: 0;
-    padding: 0;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
 }
 
 header {
-    background-color: #901A16; /* Roodkleur voor de header */
+    background-color: #901A16;
     padding: 20px;
-    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 #logo img {
-    width: 50px; /* Pas dit aan naar wens voor de grootte van je logo */
-    height: auto;
+    height: 50px;
 }
 
-#social-buttons {
-    display: flex;
-    gap: 10px; /* Ruimte tussen de knoppen */
-}
-
-.social-btn {
-    background-color: #fff; /* Witte achtergrond voor de knoppen */
-    color: #901A16; /* Roodkleurige tekst */
-    padding: 12px 25px; /* Grotere padding voor knoppen */
-    border-radius: 5px;
+#buttons .button {
+    background-color: white;
+    color: #901A16;
+    padding: 10px 20px;
     text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    display: inline-block; /* Zorgt ervoor dat het zich als een knop gedraagt */
-    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+    margin: 0 5px;
+    display: inline-block;
 }
 
-.social-btn:hover {
-    background-color: #901A16; /* Rood bij hover */
-    color: #fff; /* Witte tekst bij hover */
-}
-
-main {
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    text-align: center;
+}
+
+#server-image {
+    width: 300px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+#server-info {
+    max-width: 500px;
+    text-align: left;
+}
+
+#server-details {
+    background-color: #901A16;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 footer {
-    background-color: #222;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #901A16;
 }
