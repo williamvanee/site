@@ -1,4 +1,4 @@
-/* Algeme/* Algemene stijlen */
+/* Algemene stijlen */
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
@@ -47,15 +47,16 @@ header {
 /* Main content */
 #content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     margin-top: 30px;
     width: 80%;
 }
 
+/* Afbeelding rechts van de tekst */
 #content .image {
-    margin-left: 20px;
     width: 40%;
+    margin-left: 20px;
 }
 
 #content img {
@@ -68,7 +69,7 @@ header {
     width: 55%;
 }
 
-/* Serverinformatie - In het midden van de pagina */
+/* Serverinformatie in het midden van de pagina */
 #server-info {
     text-align: center;
     margin-top: 50px;
@@ -82,6 +83,4 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
-}
-
 }
