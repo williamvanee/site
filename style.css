@@ -29,6 +29,8 @@ header {
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;
+    text-align: center;
+    display: inline-block;
 }
 
 .btn:hover {
@@ -37,7 +39,6 @@ header {
 
 #info {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 40px;
 }
@@ -47,7 +48,8 @@ header {
 }
 
 .image img {
-    width: 400px;
+    width: 300px; /* Verklein het plaatje */
+    height: auto;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
